@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:white
+}
+.content{
+    margin: 100px 150px 100px 150px;
+    padding:30px 0px 30px 70px;
+    background-color: rgb(60, 55, 55);
+    width:1270px;
+}
+.standartimg{
+    height:230px;
+    width:250px;
+}
+.longimg{
+    height: 230px;
+    width:538px;
+    margin: 0px 0px 20px 0px
+}
+.longedimg{
+    width:250px;
+    height:310px;
+}
+.superimg{
+    height:480px;
+    width:250px;
+}
+
+/* HEADER section */
+
+h4{
+    background-color: chocolate;
+    padding: 25px 25px 25px 25px;
+    width: 130px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 42px;
+}
+header{
+    margin: 0px 0px 40px 0px;
+}
+
+/* GRID BOX */
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.standart{
+    display: grid;
+    grid-template-columns: 41% 41%;
+    gap:40px
+}
+.longed{
+    display: grid;
+    grid-template-columns: 41% 41%;
+    gap:40px;
+    margin:20px 0px 0px 0px;
+}
+.secondbox{
+    display: grid;
+    grid-template-columns: 41% 41%;
+    grid-template-rows: auto auto auto;
+    gap:40px
+}
